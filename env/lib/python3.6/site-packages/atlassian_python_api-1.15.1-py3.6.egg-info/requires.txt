@@ -1,0 +1,12 @@
+requests
+six
+oauthlib
+requests_oauthlib
+
+[kerberos]
+
+[kerberos:platform_system != "Windows"]
+kerberos
+
+[kerberos:platform_system == "Windows"]
+kerberos-sspi
